@@ -18,7 +18,8 @@ Route::get('/', function () {
 Route::group(['as' => 'form::'], function() {
     // 入力画面
     Route::get('/input', ['as' => 'input', 'uses' => 'FormController@input']);
+    // 入力確認画面
+    Route::match(['get', 'post'], '/confirm', ['as' => 'confirm', 'uses' => 'FormController@confirm']);
     // 完了画面
-    Route::post('/save', ['as' => 'save', 'uses' => 'FormController@save']);
- 
+    Route::post('/complete', ['as' => 'complete', 'uses' => 'FormController@complete']);
 });
