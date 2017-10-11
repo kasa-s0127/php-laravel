@@ -45,7 +45,7 @@
         </div>
         <div class="form-group">
             <label>内容</label><span class="badge badge-danger">必須</span>
-            <textarea class="form-control" name="content" rows="3" placeholder="内容を入力してください（最大1000文字）"></textarea>
+            <textarea class="form-control" name="content" rows="3" placeholder="内容を入力してください（最大500文字）"></textarea>
         </div>
         <div class="form-group row">
             <div class="mx-auto">

@@ -28,7 +28,7 @@ class PostRequest extends FormRequest
          'tel' => 'max:11',
          'email' => 'required|email',
          'gender' => 'required|in:1,2',
-         'content' => 'required|max:1000'
+         'content' => 'required|max:500'
         ];
     }
     

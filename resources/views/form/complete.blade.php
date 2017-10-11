@@ -11,7 +11,7 @@
         </center>
     <div class="row flex-items-xs-middle">
         <div class="mx-auto">
-                <button type="button" class="btn btn-warning" onclick="history.go(-2)">戻る</button>
+                <button type='submit' class="btn btn-warning">戻る</button>
 
         </div>
     </div>
